@@ -14,6 +14,7 @@ end
 
  def take_a_number(deli, name)
   deli << name
+  name = gets.chomp
   puts "Welcome, #{name}. You are number #{deli.length} in line."
 end
 
