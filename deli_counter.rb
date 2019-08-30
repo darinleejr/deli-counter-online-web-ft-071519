@@ -17,7 +17,6 @@ end
  def take_a_number(deli, name)
   deli << name
   puts "Welcome, #{name}. You are number #{deli.length} in line."
-  binding.pry
 end
 
  def now_serving(deli)
